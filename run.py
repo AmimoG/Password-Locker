@@ -24,10 +24,10 @@ def main():
     while True:
         print("-" * 156)
         print("""Use the bellow short codes to execute what you want!!
-1. cc - CREATE NEW ACCOUNT
-2. ex - EXIT PASSWORD LOCKER
-3. dac - DISPLAY ACCOUNTS
-4. gs - GENERATE PASSWORDS""")
+1. CA - CREATE ACCOUNT
+2. Ex - EXIT PASSWORD LOCKER
+3. DA - DISPLAY ACCOUNTS
+4. GP - GENERATE PASSWORDS""")
 
 
         print(" ")

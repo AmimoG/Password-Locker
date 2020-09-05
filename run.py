@@ -27,3 +27,10 @@ def main():
 2. ex - EXIT PASSWORD LOCKER
 3. dac - DISPLAY ACCOUNTS
 4. gs - GENERATE PASSWORDS""")
+
+    print(" ")
+    print("      TYPE IN A SHORT CODE!")
+    print(" ")
+    short_code = input() .lower()
+    if short_code =='cc':
+        

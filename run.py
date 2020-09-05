@@ -93,3 +93,23 @@ def main():
 
 
             print (list_of_inputs)
+
+        elif short_code == "ex":
+            print("-" * 156)
+            print(" ")
+            print("                        THAX FOR DROPING IN!")
+            print("                           Bye... Bye...")
+            print(" ")
+            print("-" * 156)
+            break
+        else:
+            print("-" * 156)
+            print(" ")
+            print("                              RETRY!!")
+            print(" ")
+            print("                Please Select One Of The Options Provided")
+            print(" ")
+
+if __name__ == '__main__':
+
+    main()

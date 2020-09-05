@@ -17,12 +17,10 @@ class TestInfo(unittest.TestCase):
         Info.info_list = []
     def test_delete_info(self):
         self.new_info.save_info()
-        test_info = Info("agens.89","agnes.89")
+        test_info = Info("amimo.matete","amimo.matete")
         test_info.save_info()
         test_info.delete_info()
         self.assertEqual(len(Info.info_list),1)
-    def test_display_creds(self):
-        self.assertEqual(Info.display_info(),Info.info)
 
 if __name__ == '__main__':
     unittest.main()

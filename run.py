@@ -60,7 +60,7 @@ def main():
         print("-" * 156)
         print(f"New Account  {f_name } { m_name} { face_bookp } has been created")
         print('\n')
-        
+
         elif short_code =='dac':
             if display_users():
                 print(" ")
@@ -80,3 +80,16 @@ def main():
                     print("                         PLEASE CREATE AN ACCOUNT ")
                     print("                    You have not created an account yet :( ")
                     print(" ")
+        elif  short_code == 'gs':
+            print(" ")
+            print(" ")
+            print("TO GENERATE A PASSWORD ADD IN YOUR FIRST NAME AND FACEBOOK BELOW!!")
+            print(" ")
+            list_of_inputs = [c for c in input()]
+
+            # list_of_inputs= list(list_of_inputs)
+            list_of_inputs.reverse()
+
+
+
+            print (list_of_inputs)

@@ -61,3 +61,22 @@ def main():
         print(f"New Account  {f_name } { m_name} { face_bookp } has been created")
         print('\n')
         
+        elif short_code =='dac':
+            if display_users():
+                print(" ")
+                print("The user name")
+                print(" ")
+                print('\n')
+                for user in display_users():
+                    print(f"{user.f_name}{user.m_name}")
+                for credentials in display_creds():
+                    print (f"{face_bookp}")
+                    print(" ")
+
+            else:
+                    print('\n')
+                    print("-" * 156)
+                    print(" ")
+                    print("                         PLEASE CREATE AN ACCOUNT ")
+                    print("                    You have not created an account yet :( ")
+                    print(" ")

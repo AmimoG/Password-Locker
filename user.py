@@ -4,7 +4,7 @@ class User:
     def __init__ (self,first_name,m_name,e_mail):
 
       self.first_name = first_name
-      self.middle_name = middle_name
+      self.m_name = m_name
       self.e_mail = e_mail
 
     def save_user(self):

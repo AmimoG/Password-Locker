@@ -5,8 +5,8 @@ class TestUser(unittest.TestCase):
     def setUp(self):
         self.new_user = User("Amimo","Matete","gilbertmatete6@gmail.com",)
     def test1(self):
-        self.assertEqual(self.new_user.first_name,"Amimo")
-        self.assertEqual(self.new_user.middle_name,"Matete")
+        self.assertEqual(self.new_user.f_name,"Amimo")
+        self.assertEqual(self.new_user.m_name,"Matete")
         self.assertEqual(self.new_user.e_mail,"gilbertmatete6@gmail.com")
     def test_save_user(self):
         self.new_user.save_user()

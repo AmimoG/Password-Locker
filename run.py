@@ -2,8 +2,8 @@
 from user import User
 from credentials import Info
 
-def create_account(first_name,middle_name,e_mail):
-    new_user = User(first_name,middle_name,e_mail)
+def create_account(first_name,m_name,e_mail):
+    new_user = User(first_name,m_name,e_mail)
     return new_user
 def create_credentials(linkedInp,e_mailp):
     new_cred = Info(linkedInp,e_mailp)
@@ -34,7 +34,7 @@ def main():
         print("      Key in the short code you want to execute.")
         print(" ")
         short_code = input() .lower()
-        if short_code =='CA':
+        if short_code =='ca':
             print(" ")
             print("-" * 156)
             print("      Create an Account!")
@@ -42,10 +42,10 @@ def main():
             print(" ")
             print("what is your first name?..")
             print(" ")
-            first_name =input()
+            f_name =input()
             print("What is your middle name?..")
             print(" ")
-            middle_name= input()
+            m_name= input()
             print("what is your email address?..")
             print(" ")
             e_mail= input()
@@ -55,23 +55,23 @@ def main():
             print("what is your email password?..")
             print(" ")
             e_mailp= input()
-            save_account(create_account(first_name,middle_name,e_mail))
+            save_account(create_account(f_name,m_name,e_mail))
             print('\n')
             save_credentials(create_credentials (linkedInp,e_mailp))
             print('\n')
             print("-" * 156)
-            print(f"New Account  {first_name } { middle_name} { linkedInp } has been created")
+            print(f"New Account  {f_name } { m_name} { linkedInp } has been created")
             print('\n')
-        elif short_code =='DA':
+        elif short_code =='da':
             if display_users():
                 print(" ")
                 print("The user name")
                 print(" ")
                 print('\n')
                 for user in display_users():
-                    print(f"{user.first_name}{user.middle_name}")
-                for credentials in display_creds():
-                    print (l"{linkedInp}")
+                    print(f"{user.f_name}{user.m_name}")
+                for _ in display_creds():
+                    print (f"{linkedInp}")
                     print(" ")
 
             else:
@@ -81,7 +81,7 @@ def main():
                     print("                         PLEASE CREATE AN ACCOUNT ")
                     print("                    You have not created an account yet :( ")
                     print(" ")
-        elif  short_code == 'GP':
+        elif  short_code == 'gp':
             print(" ")
             print(" ")
             print("To Generate a new Password please enter your Name!!")
@@ -95,7 +95,7 @@ def main():
 
             print (list_of_inputs)
 
-        elif short_code == "Ex":
+        elif short_code == "ex":
             print("-" * 156)
             print(" ")
             print("                        Thank you for creating an account with us!")

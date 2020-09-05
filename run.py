@@ -41,4 +41,12 @@ def main():
         print("what is your first name?..")
         print(" ")
         f_name =input()
+        print("What is your middle name?..")
+        print(" ")
+        m_name= input()
+        print("what is your email address?..")
+        print(" ")
+        e_mail= input()
+        print ("what is your facebook password?..")
+        print(" ")
         

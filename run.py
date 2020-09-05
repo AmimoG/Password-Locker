@@ -37,7 +37,7 @@ def main():
         if short_code =='cc':
             print(" ")
             print("-" * 156)
-            print("      CREATE A NEW ACCOUNT!")
+            print("      Create an Account!")
             print(" ")
             print(" ")
             print("what is your first name?..")
@@ -49,7 +49,7 @@ def main():
             print("what is your email address?..")
             print(" ")
             e_mail= input()
-            print ("what is your facebook password?..")
+            print ("what is your linkedIn password?..")
             print(" ")
             face_bookp =input()
             print("what is your email password?..")

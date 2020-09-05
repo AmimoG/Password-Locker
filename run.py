@@ -1,5 +1,5 @@
 from user import User
-from credentials import *
+from credentials import credentials
 
 def create_account(f_name,m_name,e_mail):
     new_user = User(f_name,m_name,e_mail)

@@ -18,7 +18,7 @@ def display_creds():
     return Info.display_info()
 def main():
     print(" ")
-    print("Hi Welcom to Password Locker, Please follow the guidelines below!!")
+    print("Hi Welcom to Password Locker, Please follow the guidelines below.")
     print(" ")
     print(" ")
     while True:
@@ -31,7 +31,7 @@ def main():
 
 
         print(" ")
-        print("      TYPE IN A SHORT CODE!")
+        print("      Key in the short code you want to execute.")
         print(" ")
         short_code = input() .lower()
         if short_code =='cc':

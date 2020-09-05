@@ -84,29 +84,26 @@ def main():
         elif  short_code == 'gp':
             print(" ")
             print(" ")
-            print("To Generate a new Password please enter your Full Name!!")
+            print("To Generate a new Password please enter your Full Name.")
             print(" ")
             list_of_inputs = [c for c in input()]
 
-            # list_of_inputs= list(list_of_inputs)
             list_of_inputs.reverse()
-
-
 
             print (list_of_inputs)
 
         elif short_code == "ex":
             print("-" * 156)
             print(" ")
-            print("                        Thank you for creating an account with us!")
-            print("                           Have a great time")
+            print("                        Thank you for creating an account with us.")
+            print("                                   Have a great time")
             print(" ")
             print("-" * 156)
             break
         else:
             print("-" * 156)
             print(" ")
-            print("                              RETRY!!")
+            print("                              RETRY")
             print(" ")
             print("                Please Select One Of The Options Provided")
             print(" ")

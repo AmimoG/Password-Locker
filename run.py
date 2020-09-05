@@ -34,7 +34,7 @@ def main():
         print("      Key in the short code you want to execute.")
         print(" ")
         short_code = input() .lower()
-        if short_code =='cc':
+        if short_code =='CA':
             print(" ")
             print("-" * 156)
             print("      Create an Account!")
@@ -62,7 +62,7 @@ def main():
             print("-" * 156)
             print(f"New Account  {l_name } { m_name} { linkedInp } has been created")
             print('\n')
-        elif short_code =='dac':
+        elif short_code =='DA':
             if display_users():
                 print(" ")
                 print("The user name")
@@ -81,7 +81,7 @@ def main():
                     print("                         PLEASE CREATE AN ACCOUNT ")
                     print("                    You have not created an account yet :( ")
                     print(" ")
-        elif  short_code == 'gs':
+        elif  short_code == 'GP':
             print(" ")
             print(" ")
             print("TO GENERATE A PASSWORD ADD IN YOUR FIRST NAME AND  BELOW!!")
@@ -95,7 +95,7 @@ def main():
 
             print (list_of_inputs)
 
-        elif short_code == "ex":
+        elif short_code == "Ex":
             print("-" * 156)
             print(" ")
             print("                        Thank you for creating an account with us!")

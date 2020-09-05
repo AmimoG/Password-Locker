@@ -2,8 +2,8 @@
 from user import User
 from credentials import Info
 
-def create_account(first_name,m_name,e_mail):
-    new_user = User(first_name,m_name,e_mail)
+def create_account(f_name,m_name,e_mail):
+    new_user = User(f_name,m_name,e_mail)
     return new_user
 def create_credentials(linkedInp,e_mailp):
     new_cred = Info(linkedInp,e_mailp)

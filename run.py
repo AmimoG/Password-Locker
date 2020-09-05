@@ -84,7 +84,7 @@ def main():
         elif  short_code == 'gp':
             print(" ")
             print(" ")
-            print("To Generate a new Password please enter your Name!!")
+            print("To Generate a new Password please enter your Full Name!!")
             print(" ")
             list_of_inputs = [c for c in input()]
 

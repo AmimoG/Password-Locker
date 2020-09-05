@@ -2,11 +2,11 @@
 from user import User
 from credentials import Info
 
-def create_account(f_name,m_name,e_mail):
-    new_user = User(f_name,m_name,e_mail)
+def create_account(first_name,middle_name,e_mail):
+    new_user = User(first_name,middle_name,e_mail)
     return new_user
-def create_credentials(face_bookp,e_mailp):
-    new_cred = Info(face_bookp,e_mailp)
+def create_credentials(linkedInp,e_mailp):
+    new_cred = Info(linkedInp,e_mailp)
     return new_cred
 def save_account(user):
     user.save_user()
@@ -42,10 +42,10 @@ def main():
             print(" ")
             print("what is your first name?..")
             print(" ")
-            l_name =input()
+            first_name =input()
             print("What is your middle name?..")
             print(" ")
-            m_name= input()
+            middle_name= input()
             print("what is your email address?..")
             print(" ")
             e_mail= input()
@@ -55,12 +55,12 @@ def main():
             print("what is your email password?..")
             print(" ")
             e_mailp= input()
-            save_account(create_account(l_name,m_name,e_mail))
+            save_account(create_account(first_name,middle_name,e_mail))
             print('\n')
             save_credentials(create_credentials (linkedInp,e_mailp))
             print('\n')
             print("-" * 156)
-            print(f"New Account  {l_name } { m_name} { linkedInp } has been created")
+            print(f"New Account  {first_name } { middle_name} { linkedInp } has been created")
             print('\n')
         elif short_code =='DA':
             if display_users():
@@ -69,9 +69,9 @@ def main():
                 print(" ")
                 print('\n')
                 for user in display_users():
-                    print(f"{user.f_name}{user.m_name}")
+                    print(f"{user.first_name}{user.middle_name}")
                 for credentials in display_creds():
-                    print (f"{linkedInp}")
+                    print (l"{linkedInp}")
                     print(" ")
 
             else:

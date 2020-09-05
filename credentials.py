@@ -1,8 +1,8 @@
 class Info:
     info_list = []
 
-    def __init__(self,face_bookp,email_p):
-        self.face_bookp =face_bookp
+    def __init__(self,linkedInp,email_p):
+        self.linkedInp =linkedInp
         self.email_p = email_p
     def save_info(self):
         '''

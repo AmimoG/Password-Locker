@@ -84,7 +84,7 @@ def main():
         elif  short_code == 'gs':
             print(" ")
             print(" ")
-            print("TO GENERATE A PASSWORD ADD IN YOUR FIRST NAME AND FACEBOOK BELOW!!")
+            print("TO GENERATE A PASSWORD ADD IN YOUR FIRST NAME AND  BELOW!!")
             print(" ")
             list_of_inputs = [c for c in input()]
 
@@ -98,8 +98,8 @@ def main():
         elif short_code == "ex":
             print("-" * 156)
             print(" ")
-            print("                        THAX FOR DROPING IN!")
-            print("                           Bye... Bye...")
+            print("                        Thank you for creating an account with us!")
+            print("                           Have a great time")
             print(" ")
             print("-" * 156)
             break

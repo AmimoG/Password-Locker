@@ -42,7 +42,7 @@ def main():
             print(" ")
             print("what is your first name?..")
             print(" ")
-            f_name =input()
+            l_name =input()
             print("What is your middle name?..")
             print(" ")
             m_name= input()
@@ -71,7 +71,7 @@ def main():
                 for user in display_users():
                     print(f"{user.f_name}{user.m_name}")
                 for credentials in display_creds():
-                    print (f"{face_bookp}")
+                    print (f"{linkedInp}")
                     print(" ")
 
             else:
@@ -94,11 +94,6 @@ def main():
 
 
             print (list_of_inputs)
-
-
-
-
-
 
         elif short_code == "ex":
             print("-" * 156)

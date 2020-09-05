@@ -5,7 +5,7 @@ class TestInfo(unittest.TestCase):
     def setUp(self):
         self.new_info =Info("amimo.matete","amimo.matete")
     def test_init(self):
-        self.assertEqual(self.new_info.face_bookp,"amimo.matete")
+        self.assertEqual(self.new_info.linkedInp,"amimo.matete")
         self.assertEqual(self.new_info.email_p,"matete.amimo")
     def test_save_info(self):
         '''

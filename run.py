@@ -14,4 +14,10 @@ def save_credentials(credentials):
 def display_users():
     return User.display_users()
 def display_creds():
-    return Info.display_info()s
+    return Info.display_info()
+def main():
+    print("")
+    print("Hi, WELCOME TO PASSWORD LOCKER!!")
+    print(" ")
+    print(" ")
+    while True:

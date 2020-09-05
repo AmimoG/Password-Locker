@@ -1,4 +1,4 @@
-from user import *
+from user import User
 from credentials import *
 
 def create_account(f_name,m_name,e_mail):

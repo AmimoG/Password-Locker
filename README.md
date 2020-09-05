@@ -9,7 +9,7 @@ This is an application that manages your passwords and even generate new passwor
 
 1. You need to get into the **Project Repository.**
 
-Link:-> ```https://github.com/AmimoG/Password-Locker```
+```https://github.com/AmimoG/Password-Locker```
 
 2. **Clone the project.**
 
@@ -69,5 +69,6 @@ Copyright (c) 2020 Amimo Matete.
 
 ## License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE.md) file for details
+[MIT](https://choosealicense.com/licenses/mit/)
+
 

@@ -1,5 +1,5 @@
 import unittest
-from  user import User
+import User
 
 class TestUser(unittest.TestCase):
     def setUp(self):

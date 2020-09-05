@@ -1,5 +1,6 @@
+#!/usr/bin/env python3.6
 from user import User
-from credentials import credentials
+from credentials import Info
 
 def create_account(f_name,m_name,e_mail):
     new_user = User(f_name,m_name,e_mail)
@@ -16,8 +17,8 @@ def display_users():
 def display_creds():
     return Info.display_info()
 def main():
-    print("")
-    print("Hi, WELCOME TO PASSWORD LOCKER!!")
+    print(" ")
+    print("Hi Welcom to Password Locker, Please follow the guidelines below!!")
     print(" ")
     print(" ")
     while True:
@@ -28,39 +29,39 @@ def main():
 3. dac - DISPLAY ACCOUNTS
 4. gs - GENERATE PASSWORDS""")
 
-    print(" ")
-    print("      TYPE IN A SHORT CODE!")
-    print(" ")
-    short_code = input() .lower()
-    if short_code =='cc':
-        print(" ")
-        print("-" * 156)
-        print("      CREATE A NEW ACCOUNT!")
-        print(" ")
-        print(" ")
-        print("what is your first name?..")
-        print(" ")
-        f_name =input()
-        print("What is your middle name?..")
-        print(" ")
-        m_name= input()
-        print("what is your email address?..")
-        print(" ")
-        e_mail= input()
-        print ("what is your facebook password?..")
-        print(" ")
-        face_bookp =input()
-        print("what is your email password?..")
-        print(" ")
-        e_mailp= input()
-        save_account(create_account(f_name,m_name,e_mail))
-        print('\n')
-        save_credentials(create_credentials (face_bookp,e_mailp))
-        print('\n')
-        print("-" * 156)
-        print(f"New Account  {f_name } { m_name} { face_bookp } has been created")
-        print('\n')
 
+        print(" ")
+        print("      TYPE IN A SHORT CODE!")
+        print(" ")
+        short_code = input() .lower()
+        if short_code =='cc':
+            print(" ")
+            print("-" * 156)
+            print("      CREATE A NEW ACCOUNT!")
+            print(" ")
+            print(" ")
+            print("what is your first name?..")
+            print(" ")
+            f_name =input()
+            print("What is your middle name?..")
+            print(" ")
+            m_name= input()
+            print("what is your email address?..")
+            print(" ")
+            e_mail= input()
+            print ("what is your facebook password?..")
+            print(" ")
+            face_bookp =input()
+            print("what is your email password?..")
+            print(" ")
+            e_mailp= input()
+            save_account(create_account(f_name,m_name,e_mail))
+            print('\n')
+            save_credentials(create_credentials (face_bookp,e_mailp))
+            print('\n')
+            print("-" * 156)
+            print(f"New Account  {f_name } { m_name} { face_bookp } has been created")
+            print('\n')
         elif short_code =='dac':
             if display_users():
                 print(" ")
@@ -93,6 +94,11 @@ def main():
 
 
             print (list_of_inputs)
+
+
+
+
+
 
         elif short_code == "ex":
             print("-" * 156)
